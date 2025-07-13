@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FffFFF;
+  color: black;
+  border-bottom: 2px solid black;
+  min-height: 50px;
+}
+
+.header__btn {
+  width: 100px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  min-height: 30px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.header__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black
+}
+
+.header__link:hover {
+  color: grey;
+}
+
+.header__img {
+  margin-left: 20px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+.main__aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.main__contacts {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.main__contacts_link_style {
+  text-decoration: none;
+  color: black;
+}
+
+.main__contacts_link_style:hover {
+  color: grey;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  row-gap: 30px;
+}
+
+.main__head {
+  margin-bottom: 20px;
+  font-family: 'Hagin Caps', serif;
+}
+
+.main__chapter {
+  border-left: 5px solid silver;
+  padding-left: 5px;
+  color: #696969;
+}
+
+.main__text {
+  font-size: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main__lists {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 20px;
+}
+
+.footer {
+  min-height: 20px;
+  border-top: 2px solid gray;
+  padding: 20px;
+  text-align: center;
+  color: gray;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: black
+}
